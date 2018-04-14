@@ -16,5 +16,5 @@ Continued ...
 
 Model |          Acc
 ------------ | -------------
-[decompose] (http://www.aclweb.org/anthology/D16-1244)| 86.3%
+[decompose](http://www.aclweb.org/anthology/D16-1244)| 86.3%
 Enhance LSTM | TODO
