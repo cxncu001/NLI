@@ -1,12 +1,14 @@
 ## Models for Nature Language Inference (NLI).
 
 We try to reproduct classic models in literal papers for Nature Language Inferece. 
+
 To be continued ...
 
 ## Environment
-- TensorFlow 1.3 and higher
-- numpy
-- sklearn
+- TensorFlow 1.3 or higher
+- Python 3.5
+- Numpy
+- Sklearn
 
 ## Models
 
