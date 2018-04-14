@@ -4,9 +4,7 @@ We try to reproduct classic models for Nature Language Inferece.
 
 ## Environment
 - TensorFlow 1.3 and higher
-
 - numpy
-
 - sklearn
 
 
