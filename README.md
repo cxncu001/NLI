@@ -1,4 +1,4 @@
-## Models for Nature Language Inference (NLI).
+## Models for Nature Language Inference (NLI)
 
 We are trying to reproduce some classical models in literal papers for Nature Language Inferece, and report performance on the Stanford Natural Language Inference data set ([SNLI](https://nlp.stanford.edu/projects/snli/)). 
 
