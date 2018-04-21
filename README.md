@@ -25,12 +25,12 @@ nliutils.py can be used for data preparation.
 ## Hyper-parameters
 - decompose: 
 
-Train model: python3 decompose/train.py --embeddings ../../res/embeddings/glove.840B.300d.we --train_em 0 -op adagrad -lr 0.05 --require_improvement 10000000 --vocab ../cdata/snli/vocab.txt -ep 300 --normalize 1 -l2 0.0 -bs 8 --report 8000 --save_per_batch 8000 -cl 100
+Train model: python3 decompose/train.py --embeddings ../../res/embeddings/glove.840B.300d.we --train_em 0 -op adagrad -lr 0.05 --require_improvement 50000000 --vocab ../cdata/snli/vocab.txt -ep 300 --normalize 1 -l2 0.0 -bs 4 --report 16000 --save_per_batch 16000 -cl 100
 
 Test model: python3 decompose/test.py -m modelfile -d testdata
 
 ## Results
 Model          | Acc reported in papers  | Our Acc
 ------------   | -------------           | -------------
-decompose      | 86.3%                   | 86.19%
+decompose      | 86.3%                   | 86.28%
 
